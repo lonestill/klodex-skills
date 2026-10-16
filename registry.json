@@ -1,10 +1,11 @@
 {
-  "version": "1.0.0",
+  "version": "1.1.0",
   "updatedAt": "2026-10-16",
   "categories": [
     { "id": "architecture", "name": "Архитектура и Аудит" },
     { "id": "code", "name": "Разработка и Код" },
     { "id": "security", "name": "Безопасность" },
+    { "id": "ops", "name": "SRE и Инциденты" },
     { "id": "writing", "name": "Текст и Документация" }
   ],
   "skills": [
@@ -44,6 +45,39 @@
       "tags": ["code-review", "quality", "strict"]
     },
     {
+      "id": "production-firefighter",
+      "name": "Production Firefighter SRE",
+      "type": "system",
+      "category": "ops",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт: режим аварийного расследования инцидентов, дедлоков, утечек памяти и падений продакшена.",
+      "path": "prompts/system/production-firefighter.md",
+      "tags": ["sre", "firefighting", "crash", "postmortem"]
+    },
+    {
+      "id": "security-sentinel",
+      "name": "AppSec Security Sentinel",
+      "type": "system",
+      "category": "security",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт: непреклонный аудит безопасности кода по OWASP Top 10, CWE и принципам нулевого доверия.",
+      "path": "prompts/system/security-sentinel.md",
+      "tags": ["appsec", "owasp", "vulnerability", "strict"]
+    },
+    {
+      "id": "senior-architect",
+      "name": "Senior Software Architect",
+      "type": "system",
+      "category": "architecture",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт: системное проектирование по принципам бритвы Оккама, SOLID и минимизации Total Cost of Ownership.",
+      "path": "prompts/system/senior-architect.md",
+      "tags": ["architect", "system-design", "solid", "dry"]
+    },
+    {
       "id": "explain-architecture",
       "name": "Explain Architecture",
       "type": "user",
@@ -56,6 +90,42 @@
       "tags": ["architecture", "onboarding", "diagram"]
     },
     {
+      "id": "clean-refactor",
+      "name": "Clean Code Refactor",
+      "type": "user",
+      "slash": "/refactor",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Пользовательский шаблон: декомпозиция монолитов, устранение дублирования и приведение типов к строгому виду.",
+      "path": "prompts/user/clean-refactor.md",
+      "tags": ["refactor", "clean-code", "dry"]
+    },
+    {
+      "id": "generate-tests",
+      "name": "Exhaustive Test Generator",
+      "type": "user",
+      "slash": "/test",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Пользовательский шаблон: генерация исчерпывающих юнит и интеграционных тестов с проверкой краевых случаев.",
+      "path": "prompts/user/generate-tests.md",
+      "tags": ["tests", "unit-testing", "qa", "coverage"]
+    },
+    {
+      "id": "git-commit",
+      "name": "Semantic Git Commit",
+      "type": "user",
+      "slash": "/commit",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Пользовательский шаблон: анализ git diff и составление лаконичного conventional commit сообщения.",
+      "path": "prompts/user/git-commit.md",
+      "tags": ["git", "commit", "conventional-commits"]
+    },
+    {
       "id": "deep-audit",
       "name": "Deep Security & Performance Audit",
       "type": "composite",
@@ -63,9 +133,45 @@
       "category": "security",
       "version": "1.0.0",
       "author": "lonestill",
-      "description": "Гибридный промпт (система + юзер): переводит модель в режим нулевого доверия и запускает полный аудит проекта.",
+      "description": "Гибридный промпт: переводит модель в режим нулевого доверия и запускает полный аудит безопасности и производительности.",
       "path": "prompts/composite/deep-audit.md",
       "tags": ["security", "audit", "performance"]
+    },
+    {
+      "id": "root-cause-fix",
+      "name": "Root Cause Fix",
+      "type": "composite",
+      "slash": "/fix",
+      "category": "ops",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Гибридный промпт: расследование корня проблемы без костылей и наложение хирургического фикса.",
+      "path": "prompts/composite/root-cause-fix.md",
+      "tags": ["debug", "root-cause", "fix", "regression"]
+    },
+    {
+      "id": "optimize-hotpath",
+      "name": "Hotpath Performance Optimizer",
+      "type": "composite",
+      "slash": "/optimize",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Гибридный промпт: профилирование критических путей выполнения, устранение аллокаций памяти и O(N^2) алгоритмов.",
+      "path": "prompts/composite/optimize-hotpath.md",
+      "tags": ["optimization", "performance", "hotpath"]
+    },
+    {
+      "id": "threat-model",
+      "name": "Threat Model & Attack Surface",
+      "type": "composite",
+      "slash": "/threat",
+      "category": "security",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Гибридный промпт: моделирование угроз по STRIDE/DREAD, анализ векторов атак и критических точек отказа.",
+      "path": "prompts/composite/threat-model.md",
+      "tags": ["threat-model", "security", "stride", "appsec"]
     }
   ]
 }
