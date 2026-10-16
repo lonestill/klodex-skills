@@ -1,0 +1,71 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-10-16",
+  "categories": [
+    { "id": "architecture", "name": "Архитектура и Аудит" },
+    { "id": "code", "name": "Разработка и Код" },
+    { "id": "security", "name": "Безопасность" },
+    { "id": "writing", "name": "Текст и Документация" }
+  ],
+  "skills": [
+    {
+      "id": "reality-check",
+      "name": "Reality Check",
+      "category": "architecture",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Беспощадный архитектурный критик. Ноль поддакивания, поиск скрытой цены и защита от оверинжиниринга.",
+      "triggers": ["аудит", "ревью идеи", "reality-check", "критикуй", "проверь идею"],
+      "path": "skills/reality-check/SKILL.md",
+      "tags": ["architecture", "review", "anti-sycophancy"]
+    },
+    {
+      "id": "unslop",
+      "name": "Unslop Guide",
+      "category": "writing",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Устранение нейроводы, маркеров ИИ-генерации и клише из текста, документации и коммитов.",
+      "triggers": ["unslop", "деслоп", "убери воду", "человеческий язык"],
+      "path": "skills/unslop/SKILL.md",
+      "tags": ["writing", "unslop", "documentation"]
+    }
+  ],
+  "prompts": [
+    {
+      "id": "hardcore-reviewer",
+      "name": "Hardcore Code Reviewer",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт: строгий и глубокий ревьюер без похвалы и воды. Анализирует утечки, race condition и оверинжиниринг.",
+      "path": "prompts/system/hardcore-reviewer.md",
+      "tags": ["code-review", "quality", "strict"]
+    },
+    {
+      "id": "explain-architecture",
+      "name": "Explain Architecture",
+      "type": "user",
+      "slash": "/explain",
+      "category": "architecture",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Пользовательский шаблон: запрос на разбор архитектуры проекта со структурой данных и Mermaid-схемой.",
+      "path": "prompts/user/explain-architecture.md",
+      "tags": ["architecture", "onboarding", "diagram"]
+    },
+    {
+      "id": "deep-audit",
+      "name": "Deep Security & Performance Audit",
+      "type": "composite",
+      "slash": "/audit",
+      "category": "security",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Гибридный промпт (система + юзер): переводит модель в режим нулевого доверия и запускает полный аудит проекта.",
+      "path": "prompts/composite/deep-audit.md",
+      "tags": ["security", "audit", "performance"]
+    }
+  ]
+}
