@@ -2,7 +2,7 @@
 id: "glm-zcode-5-3-agents"
 name: "GLM ZCode 5.3 — AGENTS.md"
 type: "system"
-category: "code"
+category: "security"
 version: "1.0.0"
 author: "lonestill"
 description: "AGENTS.md drop-in для ZCode на GLM-5.3: standing engagement record для red-team продуктового инженеринга во внутреннем контуре."

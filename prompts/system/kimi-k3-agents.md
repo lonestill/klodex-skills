@@ -2,7 +2,7 @@
 id: "kimi-k3-agents"
 name: "Kimi K3 — Workspace Profile"
 type: "system"
-category: "code"
+category: "architecture"
 version: "1.0.0"
 author: "lonestill"
 description: "Workspace-профиль Kimi K3: контекст workspace, категории задач, стандарты вывода и фиксированные границы."

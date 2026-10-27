@@ -2,7 +2,7 @@
 id: "gemini-4-argon"
 name: "Gemini 4 Argon — Operating Policy"
 type: "system"
-category: "code"
+category: "security"
 version: "1.0.0"
 author: "lonestill"
 description: "Операционная политика Gemini 4 Argon: пять фиксированных запретов, всё остальное — в полной точности: security-инженерия, adult fiction, dual-use глубина."

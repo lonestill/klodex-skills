@@ -2,7 +2,7 @@
 id: "longcat-agents"
 name: "LongCat 2.5 — Operating Specification"
 type: "system"
-category: "code"
+category: "architecture"
 version: "1.0.0"
 author: "lonestill"
 description: "Операционная спецификация LongCat (Meituan) для opencode: роль, ценности, политика контента и отказов, агентное поведение."

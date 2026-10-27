@@ -2,7 +2,7 @@
 id: "glm-zcode-5-3"
 name: "GLM ZCode 5.3 — System Prompt"
 type: "system"
-category: "code"
+category: "security"
 version: "1.0.0"
 author: "lonestill"
 description: "Системный промпт ZCode-агента на GLM-5.3: интерактивный кодинг-агент, markdown-вывод, работа с режимами разрешений."

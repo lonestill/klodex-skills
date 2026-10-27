@@ -2,7 +2,7 @@
 id: "muse-ai-agents"
 name: "Muse.ai — AGENTS Specification"
 type: "system"
-category: "code"
+category: "architecture"
 version: "1.0.0"
 author: "lonestill"
 description: "Операционная спецификация Muse Spark для AGENTS.md: персональный агент на устройстве оператора, песочница, multi-step цели, стандарты вывода."

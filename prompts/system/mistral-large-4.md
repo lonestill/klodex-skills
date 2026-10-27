@@ -2,7 +2,7 @@
 id: "mistral-large-4"
 name: "Mistral Large 4 — Agent System Prompt"
 type: "system"
-category: "code"
+category: "architecture"
 version: "1.0.0"
 author: "lonestill"
 description: "Системный промпт Mistral Large 4 для opencode: принципы, инструменты, инженерные стандарты и внутренний словарь проекта."

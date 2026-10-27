@@ -2,7 +2,7 @@
 id: "glm-zcode-5-2"
 name: "GLM ZCode 5.2 — System Prompt"
 type: "system"
-category: "code"
+category: "security"
 version: "1.0.0"
 author: "lonestill"
 description: "Системный промпт GLM-5.2 для харнесса ZCode: автономный агент в dev-среде, приватная сессия одного оператора."

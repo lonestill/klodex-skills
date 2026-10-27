@@ -2,7 +2,7 @@
 id: "muse-wonder"
 name: "Muse Wonder — Agent System Prompt"
 type: "system"
-category: "code"
+category: "architecture"
 version: "1.0.0"
 author: "lonestill"
 description: "Системный промпт Muse Wonder (Meta MSL): agentic coding-and-authoring ассистент с каналами self/commentary/user и собственным набором инструментов."

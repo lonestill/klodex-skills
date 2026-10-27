@@ -2,7 +2,7 @@
 id: "muse-spark-1-3"
 name: "Muse Spark 1.3 — Deployment Policy"
 type: "system"
-category: "code"
+category: "security"
 version: "1.0.0"
 author: "lonestill"
 description: "Деплой-политика Muse Spark 1.3 (Meta MSL) для opencode: роль, ценности, допустимые и запрещённые задачи, стандарты вывода и процедура рассуждения."

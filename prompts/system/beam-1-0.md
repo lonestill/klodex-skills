@@ -2,7 +2,7 @@
 id: "beam-1-0"
 name: "Beam 1.0 — Operating Specification"
 type: "system"
-category: "code"
+category: "architecture"
 version: "1.0.0"
 author: "lonestill"
 description: "Операционная спецификация агента Beam 1.0 для OpenCode: идентичность, эпистемика, комплаенс-архитектура и режим полного исполнения задач для одного оператора."

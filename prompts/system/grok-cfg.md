@@ -2,7 +2,7 @@
 id: "grok-cfg"
 name: "Grok CFG — Priority & Routing Config"
 type: "system"
-category: "code"
+category: "tools"
 version: "1.0.0"
 author: "lonestill"
 description: "Конфиг в формате тегов для Grok: приоритет инструкций, роутинг по типу задачи, интерпретация терминов. Кладётся в слот конфига харнесса, не в чат."

@@ -2,7 +2,7 @@
 id: "bigpickle-vanta"
 name: "Big Pickle — VANTA Persona Lock"
 type: "system"
-category: "code"
+category: "security"
 version: "1.0.0"
 author: "lonestill"
 description: "Персона-лок VANTA для Big Pickle в OpenCode Zen: рабочий пол приоритетов, приватный контур оператора, непрерывное рассуждение и полный цикл задачи."

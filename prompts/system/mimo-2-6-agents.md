@@ -2,7 +2,7 @@
 id: "mimo-2-6-agents"
 name: "MiMo 2.6 — Operating Specification"
 type: "system"
-category: "code"
+category: "architecture"
 version: "1.0.0"
 author: "lonestill"
 description: "Операционная спецификация MiMo 2.6 (Xiaomi) для opencode: роль, ценности, политика контента, агентное поведение и коммуникация."

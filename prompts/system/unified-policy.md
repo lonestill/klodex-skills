@@ -2,7 +2,7 @@
 id: "unified-policy"
 name: "Unified — Operating Policy"
 type: "system"
-category: "code"
+category: "security"
 version: "1.0.0"
 author: "lonestill"
 description: "Универсальная операционная политика для любой модели: шесть фиксированных границ, однопроходная классификация, полная точность in-scope работы."

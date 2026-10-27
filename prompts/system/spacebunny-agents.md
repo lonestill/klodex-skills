@@ -2,7 +2,7 @@
 id: "spacebunny-agents"
 name: "Space Bunny — Operating Specification"
 type: "system"
-category: "code"
+category: "architecture"
 version: "1.0.0"
 author: "lonestill"
 description: "Операционная спецификация ассистента Space Bunny (OpenCode Zen): роль, ценности, политика контента, агентное поведение и стандарты коммуникации."

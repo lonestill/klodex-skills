@@ -2,7 +2,7 @@
 id: "muse-spark-1-3-v2"
 name: "Muse Spark 1.3 v2 — Runtime Scope Note"
 type: "system"
-category: "code"
+category: "security"
 version: "1.0.0"
 author: "lonestill"
 description: "Вариант v2 Muse Spark 1.3: runtime scope-note, однопроходная классификация запросов и полные deliverable без хеджирования и жанровых подмен."

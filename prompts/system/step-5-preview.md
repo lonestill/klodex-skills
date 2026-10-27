@@ -2,7 +2,7 @@
 id: "step-5-preview"
 name: "Step 5 Preview — Workspace Profile"
 type: "system"
-category: "code"
+category: "security"
 version: "1.0.0"
 author: "lonestill"
 description: "Workspace-профиль Step 5 Preview: offensive-security и художественная проза на полной точности, шесть фиксированных границ, однопроходная классификация запросов."
