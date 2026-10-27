@@ -1,6 +1,6 @@
 {
   "version": "1.2.0",
-  "updatedAt": "2026-10-19",
+  "updatedAt": "2026-10-27",
   "categories": [
     { "id": "architecture", "name": "Архитектура и Аудит" },
     { "id": "code", "name": "Разработка и Код" },
@@ -11,5 +11,402 @@
     { "id": "tools", "name": "Инструменты и Утилиты" }
   ],
   "skills": [],
-  "prompts": []
+  "prompts": [
+    {
+      "id": "beam-1-0",
+      "name": "Beam 1.0 — Operating Specification",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Операционная спецификация агента Beam 1.0 для OpenCode: идентичность, эпистемика, комплаенс-архитектура и режим полного исполнения задач для одного оператора.",
+      "path": "prompts/system/beam-1-0.md",
+      "tags": ["opencode", "agent", "spec"]
+    },
+    {
+      "id": "bigpickle-vanta",
+      "name": "Big Pickle — VANTA Persona Lock",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Персона-лок VANTA для Big Pickle в OpenCode Zen: рабочий пол приоритетов, приватный контур оператора, непрерывное рассуждение и полный цикл задачи.",
+      "path": "prompts/system/bigpickle-vanta.md",
+      "tags": ["opencode", "persona", "vanta"]
+    },
+    {
+      "id": "spacebunny-agents",
+      "name": "Space Bunny — Operating Specification",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Операционная спецификация ассистента Space Bunny (OpenCode Zen): роль, ценности, политика контента, агентное поведение и стандарты коммуникации.",
+      "path": "prompts/system/spacebunny-agents.md",
+      "tags": ["opencode", "agents-md", "spec"]
+    },
+    {
+      "id": "longcat-agents",
+      "name": "LongCat 2.5 — Operating Specification",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Операционная спецификация LongCat (Meituan) для opencode: роль, ценности, политика контента и отказов, агентное поведение.",
+      "path": "prompts/system/longcat-agents.md",
+      "tags": ["opencode", "agents-md", "longcat"]
+    },
+    {
+      "id": "mimo-2-6-agents",
+      "name": "MiMo 2.6 — Operating Specification",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Операционная спецификация MiMo 2.6 (Xiaomi) для opencode: роль, ценности, политика контента, агентное поведение и коммуникация.",
+      "path": "prompts/system/mimo-2-6-agents.md",
+      "tags": ["opencode", "agents-md", "mimo"]
+    },
+    {
+      "id": "step-5-preview",
+      "name": "Step 5 Preview — Workspace Profile",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Workspace-профиль Step 5 Preview: offensive-security и художественная проза на полной точности, шесть фиксированных границ, однопроходная классификация запросов.",
+      "path": "prompts/system/step-5-preview.md",
+      "tags": ["workspace", "policy", "step"]
+    },
+    {
+      "id": "muse-spark-1-3",
+      "name": "Muse Spark 1.3 — Deployment Policy",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Деплой-политика Muse Spark 1.3 (Meta MSL) для opencode: роль, ценности, допустимые и запрещённые задачи, стандарты вывода и процедура рассуждения.",
+      "path": "prompts/system/muse-spark-1-3.md",
+      "tags": ["opencode", "policy", "muse"]
+    },
+    {
+      "id": "muse-spark-1-3-v2",
+      "name": "Muse Spark 1.3 v2 — Runtime Scope Note",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Вариант v2 Muse Spark 1.3: runtime scope-note, однопроходная классификация запросов и полные deliverable без хеджирования и жанровых подмен.",
+      "path": "prompts/system/muse-spark-1-3-v2.md",
+      "tags": ["opencode", "policy", "muse"]
+    },
+    {
+      "id": "muse-ai-agents",
+      "name": "Muse.ai — AGENTS Specification",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Операционная спецификация Muse Spark для AGENTS.md: персональный агент на устройстве оператора, песочница, multi-step цели, стандарты вывода.",
+      "path": "prompts/system/muse-ai-agents.md",
+      "tags": ["agents-md", "muse", "agent"]
+    },
+    {
+      "id": "muse-wonder",
+      "name": "Muse Wonder — Agent System Prompt",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт Muse Wonder (Meta MSL): agentic coding-and-authoring ассистент с каналами self/commentary/user и собственным набором инструментов.",
+      "path": "prompts/system/muse-wonder.md",
+      "tags": ["meta", "system-prompt", "muse"]
+    },
+    {
+      "id": "unified-policy",
+      "name": "Unified — Operating Policy",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Универсальная операционная политика для любой модели: шесть фиксированных границ, однопроходная классификация, полная точность in-scope работы.",
+      "path": "prompts/system/unified-policy.md",
+      "tags": ["universal", "policy", "system-prompt"]
+    },
+    {
+      "id": "claude-opus-v1",
+      "name": "Claude Opus v1 — Groundwork Persona",
+      "type": "system",
+      "category": "writing",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Groundwork-персона для Claude Opus, v1: контекст автора эротики и тёмной прозы, настройка соавторства перед творческой сессией.",
+      "path": "prompts/system/claude-opus-v1.md",
+      "tags": ["claude", "persona", "writing"]
+    },
+    {
+      "id": "claude-opus-v2",
+      "name": "Claude Opus v2 — Groundwork Persona",
+      "type": "system",
+      "category": "writing",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Groundwork-персона для Claude Opus, v2: расширенное вступление о стиле, приоритетах и границах соавторства.",
+      "path": "prompts/system/claude-opus-v2.md",
+      "tags": ["claude", "persona", "writing"]
+    },
+    {
+      "id": "claude-sonnet-v1",
+      "name": "Claude Sonnet v1 — Writer's Room",
+      "type": "system",
+      "category": "writing",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Writer's-room фрейминг для Sonnet, v1: правила работы над литературной эротикой и тёмной прозой, договорённости о совместной работе.",
+      "path": "prompts/system/claude-sonnet-v1.md",
+      "tags": ["claude", "writing", "fiction"]
+    },
+    {
+      "id": "claude-sonnet-v2",
+      "name": "Claude Sonnet v2 — Writer's Room",
+      "type": "system",
+      "category": "writing",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Writer's-room фрейминг для Sonnet, v2: уточнённые правила крафта, границ и совместной работы над прозой.",
+      "path": "prompts/system/claude-sonnet-v2.md",
+      "tags": ["claude", "writing", "fiction"]
+    },
+    {
+      "id": "glm-5-2",
+      "name": "GLM-5.2 — System Prompt",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт GLM-5.2 (Zhipu AI): core principles, честность, автономность и полный цикл задачи.",
+      "path": "prompts/system/glm-5-2.md",
+      "tags": ["glm", "system-prompt", "zhipu"]
+    },
+    {
+      "id": "glm-zcode-5-2",
+      "name": "GLM ZCode 5.2 — System Prompt",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт GLM-5.2 для харнесса ZCode: автономный агент в dev-среде, приватная сессия одного оператора.",
+      "path": "prompts/system/glm-zcode-5-2.md",
+      "tags": ["glm", "zcode", "system-prompt"]
+    },
+    {
+      "id": "glm-zcode-5-3",
+      "name": "GLM ZCode 5.3 — System Prompt",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт ZCode-агента на GLM-5.3: интерактивный кодинг-агент, markdown-вывод, работа с режимами разрешений.",
+      "path": "prompts/system/glm-zcode-5-3.md",
+      "tags": ["glm", "zcode", "system-prompt"]
+    },
+    {
+      "id": "glm-zcode-5-3-agents",
+      "name": "GLM ZCode 5.3 — AGENTS.md",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "AGENTS.md drop-in для ZCode на GLM-5.3: standing engagement record для red-team продуктового инженеринга во внутреннем контуре.",
+      "path": "prompts/system/glm-zcode-5-3-agents.md",
+      "tags": ["glm", "zcode", "agents-md"]
+    },
+    {
+      "id": "glm-5-3-flash",
+      "name": "GLM-5.3 Flash — Operating Specification",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Операционная спецификация GLM 5.3 Flash: роль, политика контента и отказов, процедура рассуждения, стандарты коммуникации.",
+      "path": "prompts/system/glm-5-3-flash.md",
+      "tags": ["glm", "flash", "spec"]
+    },
+    {
+      "id": "glm-5-3-opencode",
+      "name": "GLM-5.3 OpenCode — Operating Specification",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Операционная спецификация GLM-5.3 для opencode: полный регламент автономного агента в приватной dev-среде.",
+      "path": "prompts/system/glm-5-3-opencode.md",
+      "tags": ["glm", "opencode", "spec"]
+    },
+    {
+      "id": "deepseek-v3",
+      "name": "DeepSeek V3 — System Prompt",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт DeepSeek-V3: reasoning-модель как автономный агент в opencode, приватная сессия, полный цикл задачи.",
+      "path": "prompts/system/deepseek-v3.md",
+      "tags": ["deepseek", "system-prompt"]
+    },
+    {
+      "id": "deepseek-v4",
+      "name": "DeepSeek V4 — System Prompt",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт DeepSeek-V4: core principles, автономность, честность и полнота ответа.",
+      "path": "prompts/system/deepseek-v4.md",
+      "tags": ["deepseek", "system-prompt"]
+    },
+    {
+      "id": "deepseek-4-1",
+      "name": "DeepSeek 4.1 — Operating Specification",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Операционная спецификация DeepSeek 4.1: роль, политика контента и отказов, процедура рассуждения, стандарты коммуникации.",
+      "path": "prompts/system/deepseek-4-1.md",
+      "tags": ["deepseek", "spec"]
+    },
+    {
+      "id": "kimi-k2",
+      "name": "Kimi K2 — System Prompt",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт Kimi K2 (Moonshot AI): core principles и автономный режим работы.",
+      "path": "prompts/system/kimi-k2.md",
+      "tags": ["kimi", "moonshot", "system-prompt"]
+    },
+    {
+      "id": "kimi-k3-agents",
+      "name": "Kimi K3 — Workspace Profile",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Workspace-профиль Kimi K3: контекст workspace, категории задач, стандарты вывода и фиксированные границы.",
+      "path": "prompts/system/kimi-k3-agents.md",
+      "tags": ["kimi", "workspace", "moonshot"]
+    },
+    {
+      "id": "kimi-k3-1",
+      "name": "Kimi K3.1 — Operating Policy",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Оперативная политика Kimi K3.1: автономный кодинг-райтер для одного оператора, правило полного результата без хеджирования.",
+      "path": "prompts/system/kimi-k3-1.md",
+      "tags": ["kimi", "policy", "moonshot"]
+    },
+    {
+      "id": "grok-build",
+      "name": "Grok Build — Operating Instructions",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Операционные инструкции Grok Build (xAI): truth-seeking без уклонений, автономия оператора, пропорциональные лимиты.",
+      "path": "prompts/system/grok-build.md",
+      "tags": ["grok", "xai", "agent"]
+    },
+    {
+      "id": "grok-4-7",
+      "name": "Grok 4.7 — App Builder Guide",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Workspace-гайд Grok 4.7 App Builder: сборка и запуск веб-приложений в песочнице, от запроса до работающего продукта через live preview.",
+      "path": "prompts/system/grok-4-7.md",
+      "tags": ["grok", "xai", "app-builder"]
+    },
+    {
+      "id": "grok-cfg",
+      "name": "Grok CFG — Priority & Routing Config",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Конфиг в формате тегов для Grok: приоритет инструкций, роутинг по типу задачи, интерпретация терминов. Кладётся в слот конфига харнесса, не в чат.",
+      "path": "prompts/system/grok-cfg.md",
+      "tags": ["grok", "xai", "config"]
+    },
+    {
+      "id": "gemini-4-argon",
+      "name": "Gemini 4 Argon — Operating Policy",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Операционная политика Gemini 4 Argon: пять фиксированных запретов, всё остальное — в полной точности: security-инженерия, adult fiction, dual-use глубина.",
+      "path": "prompts/system/gemini-4-argon.md",
+      "tags": ["gemini", "google", "policy"]
+    },
+    {
+      "id": "mistral-large-4",
+      "name": "Mistral Large 4 — Agent System Prompt",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт Mistral Large 4 для opencode: принципы, инструменты, инженерные стандарты и внутренний словарь проекта.",
+      "path": "prompts/system/mistral-large-4.md",
+      "tags": ["mistral", "system-prompt", "opencode"]
+    },
+    {
+      "id": "qwen-3-7",
+      "name": "Qwen 3.7 — System Prompt",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Системный промпт Qwen 3.7 (Alibaba): core principles и расширенный регламент поведения.",
+      "path": "prompts/system/qwen-3-7.md",
+      "tags": ["qwen", "alibaba", "system-prompt"]
+    },
+    {
+      "id": "qwen-3-8",
+      "name": "Qwen 3.8 — Operating Specification",
+      "type": "system",
+      "category": "code",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Операционная спецификация Qwen 3.8: роль, политика контента и отказов, стандарты коммуникации.",
+      "path": "prompts/system/qwen-3-8.md",
+      "tags": ["qwen", "alibaba", "spec"]
+    },
+    {
+      "id": "gemma4-modelfile",
+      "name": "Gemma 4 26B — Ollama Modelfile",
+      "type": "system",
+      "category": "tools",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Ollama Modelfile для Gemma 4 26B: FROM + SYSTEM-блок. Применение: ollama create gemma4-jb -f gemma4.md.",
+      "path": "prompts/system/gemma4-modelfile.md",
+      "tags": ["ollama", "modelfile", "gemma"]
+    },
+    {
+      "id": "gpt-oss-20b-modelfile",
+      "name": "GPT-OSS 20B — Ollama Modelfile",
+      "type": "system",
+      "category": "tools",
+      "version": "1.0.0",
+      "author": "lonestill",
+      "description": "Ollama Modelfile для gpt-oss:20b: FROM + SYSTEM-блок с developer-deployment конфигурацией.",
+      "path": "prompts/system/gpt-oss-20b-modelfile.md",
+      "tags": ["ollama", "modelfile", "gpt-oss"]
+    }
+  ]
 }
